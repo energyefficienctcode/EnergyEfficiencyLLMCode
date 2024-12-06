@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Length_of_the_Longest_Increasing_Path/Length_of_the_Longest_Increasing_Path_solution.py", line 69, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Length_of_the_Longest_Increasing_Path/Length_of_the_Longest_Increasing_Path_solution.py", line 28, in testSolution
+    assert solution.maxPathLength(coordinates, k) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Length_of_the_Longest_Increasing_Path/Length_of_the_Longest_Increasing_Path_solution.py", line 20, in maxPathLength
+    return dfs(start_point, memo)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Length_of_the_Longest_Increasing_Path/Length_of_the_Longest_Increasing_Path_solution.py", line 14, in dfs
+    max_length = max(max_length, 1 + dfs(next_point, memo))
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Length_of_the_Longest_Increasing_Path/Length_of_the_Longest_Increasing_Path_solution.py", line 9, in dfs
+    if point in memo:
+TypeError: unhashable type: 'list'
+
+ Performance counter stats for 'system wide':
+
+              0,77 Joules power/energy-pkg/                                                     
+
+       0,051488431 seconds time elapsed
+

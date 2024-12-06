@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Find_Edges_in_Shortest_Paths/Find_Edges_in_Shortest_Paths_solution.py", line 84, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Find_Edges_in_Shortest_Paths/Find_Edges_in_Shortest_Paths_solution.py", line 60, in testSolution
+    assert solution.findAnswer(n, edges) == expected_result, f"Test case 3 failed. Expected {expected_result}."
+AssertionError: Test case 3 failed. Expected [False, False].
+
+ Performance counter stats for 'system wide':
+
+              0,76 Joules power/energy-pkg/                                                     
+
+       0,051612109 seconds time elapsed
+

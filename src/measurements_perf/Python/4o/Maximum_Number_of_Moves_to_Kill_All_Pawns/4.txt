@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Maximum_Number_of_Moves_to_Kill_All_Pawns/Maximum_Number_of_Moves_to_Kill_All_Pawns_solution.py", line 103, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Maximum_Number_of_Moves_to_Kill_All_Pawns/Maximum_Number_of_Moves_to_Kill_All_Pawns_solution.py", line 62, in testSolution
+    assert solution.maxMoves(kx, ky, positions) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+AssertionError: Test case 1 failed. Expected 1.
+
+ Performance counter stats for 'system wide':
+
+              0,83 Joules power/energy-pkg/                                                     
+
+       0,060604602 seconds time elapsed
+

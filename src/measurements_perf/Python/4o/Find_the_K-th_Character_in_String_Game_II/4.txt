@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Find_the_K-th_Character_in_String_Game_II/Find_the_K-th_Character_in_String_Game_II_solution.py", line 66, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Find_the_K-th_Character_in_String_Game_II/Find_the_K-th_Character_in_String_Game_II_solution.py", line 50, in testSolution
+    assert solution.kthCharacter(k, operations) == expected_result, f"Test case 5 failed. Expected {expected_result}."
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Find_the_K-th_Character_in_String_Game_II/Find_the_K-th_Character_in_String_Game_II_solution.py", line 18, in kthCharacter
+    return word[k - 1]  # Return the k-th character (1-indexed)
+IndexError: string index out of range
+
+ Performance counter stats for 'system wide':
+
+              0,75 Joules power/energy-pkg/                                                     
+
+       0,051107134 seconds time elapsed
+

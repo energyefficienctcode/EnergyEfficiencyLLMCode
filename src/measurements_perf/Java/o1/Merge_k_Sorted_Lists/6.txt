@@ -1,0 +1,138 @@
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:5: error: cannot find symbol
+    public ListNode mergeKLists(ListNode[] lists) {
+                                ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:5: error: cannot find symbol
+    public ListNode mergeKLists(ListNode[] lists) {
+           ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:8: error: cannot find symbol
+        PriorityQueue<ListNode> heap = new PriorityQueue<>(new Comparator<ListNode>() {
+                      ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:8: error: cannot find symbol
+        PriorityQueue<ListNode> heap = new PriorityQueue<>(new Comparator<ListNode>() {
+                                                                          ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:9: error: cannot find symbol
+            public int compare(ListNode a, ListNode b) {
+                               ^
+  symbol: class ListNode
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:9: error: cannot find symbol
+            public int compare(ListNode a, ListNode b) {
+                                           ^
+  symbol: class ListNode
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:14: error: cannot find symbol
+        for (ListNode node : lists) {
+             ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:20: error: cannot find symbol
+        ListNode dummy = new ListNode(0);
+        ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:20: error: cannot find symbol
+        ListNode dummy = new ListNode(0);
+                             ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:21: error: cannot find symbol
+        ListNode current = dummy;
+        ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:24: error: cannot find symbol
+            ListNode minNode = heap.poll();
+            ^
+  symbol:   class ListNode
+  location: class Solution
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:49: error: non-static variable this cannot be referenced from a static context
+    ListNode dummy = new ListNode();
+                     ^
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:52: error: non-static variable this cannot be referenced from a static context
+        current.next = new ListNode(val);
+                       ^
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:60: error: cannot find symbol
+    List<Integer> result = new ArrayList<>();
+    ^
+  symbol:   class List
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:60: error: cannot find symbol
+    List<Integer> result = new ArrayList<>();
+                               ^
+  symbol:   class ArrayList
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:78: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result1), expected_result1) : "Test case 1 failed. Expected " + Arrays.toString(expected_result1);
+           ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:78: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result1), expected_result1) : "Test case 1 failed. Expected " + Arrays.toString(expected_result1);
+                                                                                                          ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:84: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result2), expected_result2) : "Test case 2 failed. Expected " + Arrays.toString(expected_result2);
+           ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:84: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result2), expected_result2) : "Test case 2 failed. Expected " + Arrays.toString(expected_result2);
+                                                                                                          ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:90: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result3), expected_result3) : "Test case 3 failed. Expected " + Arrays.toString(expected_result3);
+           ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:90: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result3), expected_result3) : "Test case 3 failed. Expected " + Arrays.toString(expected_result3);
+                                                                                                          ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:101: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result4), expected_result4) : "Test case 4 failed. Expected " + Arrays.toString(expected_result4);
+           ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:101: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result4), expected_result4) : "Test case 4 failed. Expected " + Arrays.toString(expected_result4);
+                                                                                                          ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:111: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result5), expected_result5) : "Test case 5 failed. Expected " + Arrays.toString(expected_result5);
+           ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:111: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result5), expected_result5) : "Test case 5 failed. Expected " + Arrays.toString(expected_result5);
+                                                                                                          ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:117: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result6), expected_result6) : "Test case 6 failed. Expected " + Arrays.toString(expected_result6);
+           ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+generated_code_files_java/o1/Merge_k_Sorted_Lists/Merge_k_Sorted_Lists.java:117: error: cannot find symbol
+    assert Arrays.equals(linkedListToList(result6), expected_result6) : "Test case 6 failed. Expected " + Arrays.toString(expected_result6);
+                                                                                                          ^
+  symbol:   variable Arrays
+  location: class Merge_k_Sorted_Lists
+27 errors
+error: compilation failed
+
+ Performance counter stats for 'system wide':
+
+              8,84 Joules power/energy-pkg/                                                     
+
+       0,318905625 seconds time elapsed
+

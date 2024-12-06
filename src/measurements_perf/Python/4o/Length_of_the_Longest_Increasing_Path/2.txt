@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Length_of_the_Longest_Increasing_Path/Length_of_the_Longest_Increasing_Path_solution.py", line 76, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Length_of_the_Longest_Increasing_Path/Length_of_the_Longest_Increasing_Path_solution.py", line 48, in testSolution
+    assert solution.maxPathLength(coordinates, k) == expected_result, f"Test case 3 failed. Expected {expected_result}."
+AssertionError: Test case 3 failed. Expected 3.
+
+ Performance counter stats for 'system wide':
+
+              0,79 Joules power/energy-pkg/                                                     
+
+       0,052917183 seconds time elapsed
+

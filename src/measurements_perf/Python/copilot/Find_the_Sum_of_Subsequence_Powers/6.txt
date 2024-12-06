@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Sum_of_Subsequence_Powers/Find_the_Sum_of_Subsequence_Powers_solution.py", line 69, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Sum_of_Subsequence_Powers/Find_the_Sum_of_Subsequence_Powers_solution.py", line 52, in testSolution
+    assert solution.sumOfPowers(nums, k) == expected_result, f"Test case 5 failed. Expected {expected_result}."
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Sum_of_Subsequence_Powers/Find_the_Sum_of_Subsequence_Powers_solution.py", line 18, in sumOfPowers
+    total_power = (total_power + power(subseq)) % MOD
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Sum_of_Subsequence_Powers/Find_the_Sum_of_Subsequence_Powers_solution.py", line 12, in power
+    return min(abs(subseq[i] - subseq[j]) for i in range(len(subseq)) for j in range(i + 1, len(subseq)))
+ValueError: min() arg is an empty sequence
+
+ Performance counter stats for 'system wide':
+
+              0,77 Joules power/energy-pkg/                                                     
+
+       0,051395694 seconds time elapsed
+

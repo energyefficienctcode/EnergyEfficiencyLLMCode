@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Sorted_GCD_Pair_Queries/Sorted_GCD_Pair_Queries_solution.py", line 90, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Sorted_GCD_Pair_Queries/Sorted_GCD_Pair_Queries_solution.py", line 55, in testSolution
+    assert solution.gcdValues(nums, queries) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+AssertionError: Test case 1 failed. Expected [1].
+
+ Performance counter stats for 'system wide':
+
+              0,79 Joules power/energy-pkg/                                                     
+
+       0,051441976 seconds time elapsed
+

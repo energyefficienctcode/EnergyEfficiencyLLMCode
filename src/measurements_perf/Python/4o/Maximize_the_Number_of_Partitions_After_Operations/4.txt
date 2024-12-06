@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Maximize_the_Number_of_Partitions_After_Operations/Maximize_the_Number_of_Partitions_After_Operations_solution.py", line 92, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Maximize_the_Number_of_Partitions_After_Operations/Maximize_the_Number_of_Partitions_After_Operations_solution.py", line 56, in testSolution
+    assert solution.maxPartitionsAfterOperations(s, k) == expected_result, f"Test case 2 failed. Expected {expected_result}."
+AssertionError: Test case 2 failed. Expected 3.
+
+ Performance counter stats for 'system wide':
+
+              0,75 Joules power/energy-pkg/                                                     
+
+       0,051399125 seconds time elapsed
+

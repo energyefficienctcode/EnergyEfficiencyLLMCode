@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Find_the_Maximum_Sum_of_Node_Values/Find_the_Maximum_Sum_of_Node_Values_solution.py", line 86, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Find_the_Maximum_Sum_of_Node_Values/Find_the_Maximum_Sum_of_Node_Values_solution.py", line 54, in testSolution
+    assert solution.maximumValueSum(nums, k, edges) == expected_result, f"Test case 3 failed. Expected {expected_result}."
+AssertionError: Test case 3 failed. Expected 24.
+
+ Performance counter stats for 'system wide':
+
+              0,77 Joules power/energy-pkg/                                                     
+
+       0,051388926 seconds time elapsed
+

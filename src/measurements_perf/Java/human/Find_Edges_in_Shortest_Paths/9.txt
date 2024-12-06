@@ -1,0 +1,13 @@
+generated_code_files_java/human/Find_Edges_in_Shortest_Paths/Find_Edges_in_Shortest_Paths.java:15: warning: [unchecked] unchecked conversion
+        List<Edge>[] graph = new ArrayList[n];
+                             ^
+  required: List<Solution.Edge>[]
+  found:    ArrayList[]
+1 warning
+
+ Performance counter stats for 'system wide':
+
+            278,06 Joules power/energy-pkg/                                                     
+
+      15,563193689 seconds time elapsed
+

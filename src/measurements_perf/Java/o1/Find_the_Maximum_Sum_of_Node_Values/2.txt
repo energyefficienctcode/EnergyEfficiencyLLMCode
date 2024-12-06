@@ -1,0 +1,14 @@
+generated_code_files_java/o1/Find_the_Maximum_Sum_of_Node_Values/Find_the_Maximum_Sum_of_Node_Values.java:40: error: cannot find symbol
+    private void dfs(int node, List<List<Integer>> adj, boolean[] beneficial, boolean[] matched, int[] nums, int k, boolean[] visited, Consumer<long[]> callback){
+                                                                                                                                       ^
+  symbol:   class Consumer
+  location: class Solution
+1 error
+error: compilation failed
+
+ Performance counter stats for 'system wide':
+
+              8,85 Joules power/energy-pkg/                                                     
+
+       0,323516490 seconds time elapsed
+

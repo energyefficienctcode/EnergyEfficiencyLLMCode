@@ -1,0 +1,21 @@
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: Index 4 out of bounds for length 4
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.lang.String.checkIndex(String.java:4930)
+	at java.base/java.lang.AbstractStringBuilder.charAt(AbstractStringBuilder.java:362)
+	at java.base/java.lang.StringBuilder.charAt(StringBuilder.java:91)
+	at Solution.kthCharacter(Find_the_Kth_Character_in_String_Game_II.java:19)
+	at Find_the_Kth_Character_in_String_Game_II.runTests(Find_the_Kth_Character_in_String_Game_II.java:53)
+	at Find_the_Kth_Character_in_String_Game_II.main(Find_the_Kth_Character_in_String_Game_II.java:72)
+
+ Performance counter stats for 'system wide':
+
+              8,70 Joules power/energy-pkg/                                                     
+
+       0,333761687 seconds time elapsed
+

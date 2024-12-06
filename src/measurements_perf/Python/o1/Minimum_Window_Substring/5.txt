@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Minimum_Window_Substring/Minimum_Window_Substring_solution.py", line 102, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Minimum_Window_Substring/Minimum_Window_Substring_solution.py", line 98, in testSolution
+    assert solution.minWindow(s, t) == expected_result, f"Test case 7 failed. Expected {expected_result}."
+AssertionError: Test case 7 failed. Expected abc.
+
+ Performance counter stats for 'system wide':
+
+              0,84 Joules power/energy-pkg/                                                     
+
+       0,054914249 seconds time elapsed
+

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Reverse_Nodes_in_k-Group/Reverse_Nodes_in_k-Group_solution.py", line 99, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Reverse_Nodes_in_k-Group/Reverse_Nodes_in_k-Group_solution.py", line 59, in testSolution
+    result = solution.reverseKGroup(head, k)
+AttributeError: 'Solution' object has no attribute 'reverseKGroup'
+
+ Performance counter stats for 'system wide':
+
+              0,79 Joules power/energy-pkg/                                                     
+
+       0,052300568 seconds time elapsed
+

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Median_of_the_Uniqueness_Array/Find_the_Median_of_the_Uniqueness_Array_solution.py", line 63, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Median_of_the_Uniqueness_Array/Find_the_Median_of_the_Uniqueness_Array_solution.py", line 27, in testSolution
+    assert solution.medianOfUniquenessArray(nums) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+AssertionError: Test case 1 failed. Expected 1.
+
+ Performance counter stats for 'system wide':
+
+              0,76 Joules power/energy-pkg/                                                     
+
+       0,050938399 seconds time elapsed
+

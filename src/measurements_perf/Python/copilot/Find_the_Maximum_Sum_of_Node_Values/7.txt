@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Maximum_Sum_of_Node_Values/Find_the_Maximum_Sum_of_Node_Values_solution.py", line 82, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Maximum_Sum_of_Node_Values/Find_the_Maximum_Sum_of_Node_Values_solution.py", line 35, in testSolution
+    assert solution.maximumValueSum(nums, k, edges) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+AssertionError: Test case 1 failed. Expected 6.
+
+ Performance counter stats for 'system wide':
+
+              0,74 Joules power/energy-pkg/                                                     
+
+       0,051531166 seconds time elapsed
+

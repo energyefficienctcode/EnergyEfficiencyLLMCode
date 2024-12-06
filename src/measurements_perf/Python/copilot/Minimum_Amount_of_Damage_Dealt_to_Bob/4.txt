@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Minimum_Amount_of_Damage_Dealt_to_Bob/Minimum_Amount_of_Damage_Dealt_to_Bob_solution.py", line 83, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Minimum_Amount_of_Damage_Dealt_to_Bob/Minimum_Amount_of_Damage_Dealt_to_Bob_solution.py", line 40, in testSolution
+    assert solution.minDamage(power, damage, health) == expected_result, f"Test case 2 failed. Expected {expected_result}."
+AssertionError: Test case 2 failed. Expected 39.
+
+ Performance counter stats for 'system wide':
+
+              0,88 Joules power/energy-pkg/                                                     
+
+       0,053096904 seconds time elapsed
+

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Maximum_Sequence_Value_of_Array/Find_the_Maximum_Sequence_Value_of_Array_solution.py", line 75, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Find_the_Maximum_Sequence_Value_of_Array/Find_the_Maximum_Sequence_Value_of_Array_solution.py", line 33, in testSolution
+    assert solution.maxValue(nums, k) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+AssertionError: Test case 1 failed. Expected 5.
+
+ Performance counter stats for 'system wide':
+
+              0,77 Joules power/energy-pkg/                                                     
+
+       0,057910382 seconds time elapsed
+

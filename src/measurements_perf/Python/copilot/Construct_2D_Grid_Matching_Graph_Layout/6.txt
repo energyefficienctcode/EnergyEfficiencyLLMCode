@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_2D_Grid_Matching_Graph_Layout/Construct_2D_Grid_Matching_Graph_Layout_solution.py", line 80, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_2D_Grid_Matching_Graph_Layout/Construct_2D_Grid_Matching_Graph_Layout_solution.py", line 60, in testSolution
+    assert solution.constructGridLayout(n, edges) == expected_result, f"Test case 2 failed. Expected {expected_result}."
+AssertionError: Test case 2 failed. Expected [[0, 1, 3, 2, 4]].
+
+ Performance counter stats for 'system wide':
+
+              0,75 Joules power/energy-pkg/                                                     
+
+       0,051554667 seconds time elapsed
+

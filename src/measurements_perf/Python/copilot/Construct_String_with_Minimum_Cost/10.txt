@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_String_with_Minimum_Cost/Construct_String_with_Minimum_Cost_solution.py", line 81, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_String_with_Minimum_Cost/Construct_String_with_Minimum_Cost_solution.py", line 54, in testSolution
+    assert solution.minimumCost(target, words, costs) == expected_result, f"Test case 4 failed. Expected {expected_result}."
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_String_with_Minimum_Cost/Construct_String_with_Minimum_Cost_solution.py", line 23, in minimumCost
+    result = dp(0)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_String_with_Minimum_Cost/Construct_String_with_Minimum_Cost_solution.py", line 18, in dp
+    cost = dp(i + len(word))
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_String_with_Minimum_Cost/Construct_String_with_Minimum_Cost_solution.py", line 18, in dp
+    cost = dp(i + len(word))
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Construct_String_with_Minimum_Cost/Construct_String_with_Minimum_Cost_solution.py", line 18, in dp
+    cost = dp(i + len(word))
+  [Previous line repeated 495 more times]
+RecursionError: maximum recursion depth exceeded
+
+ Performance counter stats for 'system wide':
+
+              0,77 Joules power/energy-pkg/                                                     
+
+       0,051593384 seconds time elapsed
+

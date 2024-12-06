@@ -1,0 +1,16 @@
+generated_code_files_java/copilot/Find_Edges_in_Shortest_Paths/Find_Edges_in_Shortest_Paths.java:5: warning: [unchecked] unchecked conversion
+        List<int[]>[] graph = new ArrayList[n];
+                              ^
+  required: List<int[]>[]
+  found:    ArrayList[]
+1 warning
+Exception in thread "main" java.lang.AssertionError: Test case 3 failed. Expected [false, false]
+	at Find_Edges_in_Shortest_Paths.runTests(Find_Edges_in_Shortest_Paths.java:70)
+	at Find_Edges_in_Shortest_Paths.main(Find_Edges_in_Shortest_Paths.java:94)
+
+ Performance counter stats for 'system wide':
+
+             10,68 Joules power/energy-pkg/                                                     
+
+       0,369075924 seconds time elapsed
+

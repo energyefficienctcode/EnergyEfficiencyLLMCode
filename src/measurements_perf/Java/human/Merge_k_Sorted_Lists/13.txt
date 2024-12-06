@@ -1,0 +1,13 @@
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections.listFromArray(ImmutableCollections.java:192)
+	at java.base/java.util.List.of(List.java:1170)
+	at Merge_k_Sorted_Lists.runTests(Merge_k_Sorted_Lists.java:95)
+	at Merge_k_Sorted_Lists.main(Merge_k_Sorted_Lists.java:123)
+
+ Performance counter stats for 'system wide':
+
+             10,74 Joules power/energy-pkg/                                                     
+
+       0,383701522 seconds time elapsed
+

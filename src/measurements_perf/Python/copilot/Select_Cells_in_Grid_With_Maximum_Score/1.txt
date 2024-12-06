@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Select_Cells_in_Grid_With_Maximum_Score/Select_Cells_in_Grid_With_Maximum_Score_solution.py", line 68, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Select_Cells_in_Grid_With_Maximum_Score/Select_Cells_in_Grid_With_Maximum_Score_solution.py", line 33, in testSolution
+    assert solution.maxScore(grid) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+AssertionError: Test case 1 failed. Expected 6.
+
+ Performance counter stats for 'system wide':
+
+              0,81 Joules power/energy-pkg/                                                     
+
+       0,058879390 seconds time elapsed
+

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Maximum_XOR_Score_Subarray_Queries/Maximum_XOR_Score_Subarray_Queries_solution.py", line 71, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/4o/Maximum_XOR_Score_Subarray_Queries/Maximum_XOR_Score_Subarray_Queries_solution.py", line 30, in testSolution
+    assert solution.maximumSubarrayXor(nums, queries) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+AssertionError: Test case 1 failed. Expected [12, 60, 60].
+
+ Performance counter stats for 'system wide':
+
+              0,76 Joules power/energy-pkg/                                                     
+
+       0,052495265 seconds time elapsed
+

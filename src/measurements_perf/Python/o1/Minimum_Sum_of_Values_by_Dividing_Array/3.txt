@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Minimum_Sum_of_Values_by_Dividing_Array/Minimum_Sum_of_Values_by_Dividing_Array_solution.py", line 95, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Minimum_Sum_of_Values_by_Dividing_Array/Minimum_Sum_of_Values_by_Dividing_Array_solution.py", line 65, in testSolution
+    assert solution.minimumValueSum(nums, andValues) == expected_result, f"Test case 3 failed. Expected {expected_result}."
+AssertionError: Test case 3 failed. Expected 7.
+
+ Performance counter stats for 'system wide':
+
+              0,76 Joules power/energy-pkg/                                                     
+
+       0,051507916 seconds time elapsed
+

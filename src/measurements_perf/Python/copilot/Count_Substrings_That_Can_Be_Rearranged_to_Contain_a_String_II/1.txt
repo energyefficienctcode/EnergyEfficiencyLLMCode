@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Count_Substrings_That_Can_Be_Rearranged_to_Contain_a_String_II/Count_Substrings_That_Can_Be_Rearranged_to_Contain_a_String_II_solution.py", line 81, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Count_Substrings_That_Can_Be_Rearranged_to_Contain_a_String_II/Count_Substrings_That_Can_Be_Rearranged_to_Contain_a_String_II_solution.py", line 37, in testSolution
+    assert solution.validSubstringCount(word1, word2) == expected_result, f"Test case 1 failed. Expected {expected_result}."
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/copilot/Count_Substrings_That_Can_Be_Rearranged_to_Contain_a_String_II/Count_Substrings_That_Can_Be_Rearranged_to_Contain_a_String_II_solution.py", line 21, in validSubstringCount
+    for i in range(len_word1 - len_word2 + 1):
+NameError: name 'len_word1' is not defined. Did you mean: 'len_word2'?
+
+ Performance counter stats for 'system wide':
+
+              0,72 Joules power/energy-pkg/                                                     
+
+       0,060169250 seconds time elapsed
+

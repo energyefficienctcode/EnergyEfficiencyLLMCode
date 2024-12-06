@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Find_the_Sum_of_Subsequence_Powers/Find_the_Sum_of_Subsequence_Powers_solution.py", line 72, in <module>
+    testSolution(solution)
+  File "/home/lolasolovyeva/PycharmProjects/LLMGeneratedCodePowerConsumption/generated_code_files/o1/Find_the_Sum_of_Subsequence_Powers/Find_the_Sum_of_Subsequence_Powers_solution.py", line 55, in testSolution
+    assert solution.sumOfPowers(nums, k) == expected_result, f"Test case 5 failed. Expected {expected_result}."
+AssertionError: Test case 5 failed. Expected 0.
+
+ Performance counter stats for 'system wide':
+
+              0,78 Joules power/energy-pkg/                                                     
+
+       0,051592365 seconds time elapsed
+
